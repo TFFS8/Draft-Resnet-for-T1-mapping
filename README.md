@@ -1,2 +1,7 @@
 # Draft-Resnet-for-T1-mapping
-Draft of a Resnet to input LR saturation time images and output HR T1 maps 
+
+Draft Resnet to improve the fitting and resolution of T1 maps. 
+
+The input of the Resnet is the saturation time images and the output are the 3 default maps of T1 saturation recovery fitting (T1, M0 and saturation efficiency).
+- Input: Low resolution saturation time images.
+- Output: High-resolution maps of T1 modelling.
